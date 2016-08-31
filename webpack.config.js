@@ -28,7 +28,7 @@ module.exports = validate ({
             test: /\.js$/,
             exclude: /node_modules/,
             include: /src/,
-            loader: 'standard'
+            loader: 'semistandard'
         }],
 
         loaders: [{
